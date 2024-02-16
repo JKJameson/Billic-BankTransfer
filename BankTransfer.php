@@ -29,6 +29,10 @@ class BankTransfer {
 		}
 		return $html;
 	}
+
+	function payment_callback() {
+		return 'no callback allowed';
+	}
 	
 	function settings($array) {
 		global $billic, $db;
